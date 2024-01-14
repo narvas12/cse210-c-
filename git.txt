@@ -1,0 +1,29 @@
+===========Meaning Of Version Control================
+
+Version or Source Control , Is the practice of managing and tracking changes in your project eg. (Changes in your code- adding or removing cpdes of files )
+
+
+=================Benefits of version Control================
+Easy traceability of bugs: version control helps programmers and to easily track cjhanges made to codes which in turn makes it easier to learn where to search for issues when one arises, 
+
+Code Experimentaion: Due to the fact that one can easily track each commits usimg certain messages version control gives programmers a chance to experiment on their codes while having the experiments on a seperate branch so as not to cause issues to the main source code, 
+
+One of the major benefit of version control is that it allows multiple people to work on one project while tracking changes made to the code by each member of the team.
+
+
+==========Example of how Version Control could be used=======
+
+---Setting Up a Repository---
+Version control provides a feature called Repository which is like a folder that holds the code on a computer that can be duplicated to another computer 
+ Each developer clones the repository from a virtual git GUI to their local machine allowing them to have a working copy of exct project, just like we did in this week's lessons,
+ Versioning and commiting changes: as I complete my assignment, i name the particular assignment using a numbering convention or naming by weeks, I then commit the changes with a mesagge that explains the changes made. 
+ Collaborations: Collaborating with as many team members working on one project and tracking each changes made to the project by certain individuals.
+
+ =================commands used in Version Control================
+
+ - git add . : this adds the changes to staging and gets the changes ready for committing, The dot (.) at the end specifies that all the changes regardlessmof the directory should be staged for commiting.
+
+ - git commit -m "Commit Message" : This command commits the staged changes to the local repositoryadgets it ready to be ouched to the virtualrepository 
+
+ - git push -u origin main : Thus command pushes the commited changes from the local repo to the virtual repo merging the changes to the existing codes 
+
